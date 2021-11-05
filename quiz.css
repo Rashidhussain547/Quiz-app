@@ -1,0 +1,51 @@
+h1{
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 80px;
+    text-align: center;
+}
+.Q_area{
+	border: 2px solid black;
+	margin-bottom: 5px;
+	background-color: #f0f2f5;
+}
+#content ul li{
+	list-style: none;
+}
+#btn{
+	padding: 20px 80px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 10px 20px 30px rgba(40,50,80,0.5);
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	margin: 10px 0px 0px 41%;
+	color: white;
+	cursor: pointer;
+	transition: all ease-in-out 0.5s;
+}
+#btn:hover{
+	background: linear-gradient(to right, #42e2e2 0%, #57189e 100%);
+}
+.pagination{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pagination a{
+	text-decoration: none;
+	padding: 20px 25px;
+	font-size: 40px;
+	margin: 20px;
+	border-radius: 50%;
+}
+.pagination a:hover{
+	background: #30CFD0;
+	transition: 200ms ease;
+}
+.pagination .ar:hover{
+	border: none;
+	background: none;
+}
